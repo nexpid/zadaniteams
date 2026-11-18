@@ -51,6 +51,12 @@
         .kontakt:hover {
             background-color: #0056b3;
         }
+
+        .tlacitka {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
     </style>
 </head>
 
@@ -59,8 +65,11 @@
     <div class="card">
         <h1>Gabriel Nepšinský</h1>
         <p>Webový vývojář</p>
-        <!-- DOPLŇ ZDE (4): Doplň do atributu href správný odkaz pro odeslání e-mailu na jan@example.com -->
-        <a href="mailto:jan@example.com" class="kontakt">Napsat e-mail</a>
+        <div class="tlacitka">
+            <!-- DOPLŇ ZDE (4): Doplň do atributu href správný odkaz pro odeslání e-mailu na jan@example.com -->
+            <a href="mailto:me@nexpid.xyz" class="kontakt">Napsat e-mail</a>
+            <a href="tel:1-800-CALL-FBI" class="kontakt">Zavolat FBI</a>
+        </div>
     </div>
 
 </body>
